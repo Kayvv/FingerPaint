@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="invisible">
+
+    <include layout="@layout/style_control"
+        android:id="@+id/style_control"
+        android:layout_gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/left_button"
+        android:layout_width="32dp"
+        android:layout_height="94dp"
+        android:background="@mipmap/left"
+        android:layout_gravity="center_vertical"/>
+    <Button
+        android:id="@+id/rest_button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Click Here To Continue Drawing"
+        android:textSize="20sp"
+        android:textColor="@color/colorAccent"
+        android:background="@color/colorGray"
+        android:layout_gravity="center_vertical"/>
+
+
+</LinearLayout>
